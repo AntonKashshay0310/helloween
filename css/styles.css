@@ -27,7 +27,7 @@ text-decoration: none;
    align-items: center;
    padding: 30px 20px;
 }
-.header__logo {
+.header_logo-img {
 	width: 100px;
 	height: 100px;
 }
@@ -35,9 +35,11 @@ text-decoration: none;
 	font-family:'Butcherman', sans-serif ;
     color: white;
     font-size: 40px;
+	font-weight: 400;
 }
 .header__list {
-
+display: flex;
+gap: 50px;
 }
 .header__item {
 
